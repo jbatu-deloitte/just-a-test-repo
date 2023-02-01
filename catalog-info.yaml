@@ -1,17 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: My First Application
+  name: my-first-application
   description: |
     This is testing a repository being added to Backstage
   links:
-    - title: Website
+    - title: website
       url: http://example.io
-    - title: Documentation
+    - title: documentation
       url: https://example.io/docs
-    - title: Storybook
+    - title: storybook
       url: https://example.io/storybook
-    - title: Discord Chat
+    - title: discord chat
       url: https://discord.com/invite/example
   annotations:
     github.com/project-slug: backstage/backstage
@@ -19,5 +19,5 @@ metadata:
     lighthouse.com/website-url: https://example.io
 spec:
   type: library
-  owner: J Batu
+  owner: user:default/jbatu-deloitte
   lifecycle: experimental
